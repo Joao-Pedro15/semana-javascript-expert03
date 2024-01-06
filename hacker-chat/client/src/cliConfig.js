@@ -1,5 +1,6 @@
+const PRODUCTION_URL = ''
 export default  class CliConfig {
-  constructor({ username, hostUri, room }) {
+  constructor({ username, hostUri = PRODUCTION_URL, room }) {
     this.username = username
     this.room = room
     const { hostname, port, protocol } = new URL(hostUri)
