@@ -1,3 +1,9 @@
+// #!/usr/bin/env node
+
+/*
+  chmod +x index.js
+*/
+
 /*
 node index.js \
   --username joaomonteiro \
